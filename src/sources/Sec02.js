@@ -4,7 +4,7 @@ function Sec02(){
   return (
     <div>
      {data.map((item) => {
-      return <p key="item.id">{
+      return <p key="item.str">{
         item.str
       }</p>
      })}
